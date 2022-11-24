@@ -26,8 +26,23 @@ console.log(collection);
 function showCollection (array){
     console.log(array.length-1);
     for (i in array){
-        object = array[i]
+        object = array[i];
         console.log(object.title + " by " + object.artist + ", published in " + object.yearPublished);
     }
 }
+
 showCollection(collection);
+
+function findByArtist(artist) {
+    let results = [];
+    for (let i=0; i<collection.length; i++){
+        if (collection[i].artist === artist) {
+            results.push(collection[i]);
+        }
+    }
+    return results;
+}    
+
+console.log(findByArtist("ABBA"));
+console.log(findByArtist("Tierra Whack"));
+//console.log(collection[0].artist);
