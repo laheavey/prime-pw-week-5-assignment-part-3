@@ -22,3 +22,12 @@ console.log(addToCollection ("Arrival", "ABBA", 1976));
 console.log(addToCollection ("Heartthrob", "Tegan and Sara", 2013));
 
 console.log(collection);
+
+function showCollection (array){
+    console.log(array.length-1);
+    for (i in array){
+        object = array[i]
+        console.log(object.title + " by " + object.artist + ", published in " + object.yearPublished);
+    }
+}
+showCollection(collection);
