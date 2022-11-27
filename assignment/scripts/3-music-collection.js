@@ -86,12 +86,12 @@ addToCollection ("", "Ray Charles", 1957);
 //trackName = property (string)
 //trackDuration = property (string)
 
-let tracklist = [];
+//let tracklist = [];
 
-function addTracks (trackName, trackDuration) {
-    tracklist.push({trackName,trackDuration});
-}
- function updateCollection (tracklist) {
-    let tracklist = [];
-    for (let )
- }
+//function addTracks (trackName, trackDuration) {
+//    tracklist.push({trackName,trackDuration});
+//}
+// function updateCollection (tracklist) {
+//    let tracklist = [];
+//    for (let )
+// }
